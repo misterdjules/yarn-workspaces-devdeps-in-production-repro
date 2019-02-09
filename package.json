@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "yarn-workspaces-devdeps-in-production-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": ["myworkspace/*"],
+  "devDependencies": {
+    "some-module": "^1.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
